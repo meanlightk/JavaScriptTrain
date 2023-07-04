@@ -15,7 +15,7 @@ const checkDir = (path, callback) => {
 const currentPath = __dirname;
 let path = `${currentPath}/js`;
 
-checkDir(paht, (err, isTrue) => {
+checkDir(path, (err, isTrue) => {
     if (err) return console.log(err);
 
     if (!isTrue) {
